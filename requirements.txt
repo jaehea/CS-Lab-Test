@@ -1,12 +1,4 @@
-# Core App
+ultralytics
 streamlit
-
-# AI & Vision (Stable Versions)
-mediapipe==0.10.11
-opencv-python-headless==4.9.0.80
-
-# Essential Fix: NumPy 2.x breaks Mediapipe, so we force 1.x
-numpy<2.0.0
-
-# Image Processing
-Pillow
+opencv-python-headless
+pillow
